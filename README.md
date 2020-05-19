@@ -1,7 +1,11 @@
 ## Proyecto gestor de novedades de nómina COS
-## Autores: Edwin Forero, Edgar Moreno, Adriana Velasquez, Edwin Ibarra
-## Técnico en programación de software SENA
-## Bogotá D.C., mayo de 2020
+<p> 
+    Autores: Edwin Forero, Edgar Moreno, Adriana Velasquez, Edwin Ibarra
+    </br>
+    Técnico en programación de software SENA
+    </br>
+    Bogotá D.C., mayo de 2020
+</p>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
