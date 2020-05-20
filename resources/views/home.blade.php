@@ -18,8 +18,11 @@
                         </div>
                     @endif
 
-                    Espacio reservado menu principal
-                    <a href="{{ action('PersonalController@index') }}"> Usuarios</a>
+                    <h2>Bienvenido</h2>
+                    </br>
+                    <p>Espacio reservado menu principal</p>
+                    </br>
+                    <a href="{{ action('PersonalController@index') }}"> Ver usuarios</a>
                 </div>
             </div>
         </div>
