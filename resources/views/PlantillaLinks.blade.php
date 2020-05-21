@@ -18,10 +18,9 @@
 <body>
 	<div class="container">
 
-		<ul>
-			<li><a href="{{ action('PersonalController@index') }}"> Usuarios</a></li>
-			<li><a href="{{ action('Auth\RegisterController@register') }}">Inicio</a></li>
-		</ul>
+		
+			<a href="{{ action('PersonalController@index') }}"  class="btn btn-outline-secondary"> Usuarios</a>
+		
 
 	</div>
 	
@@ -33,6 +32,3 @@
 </body>
 @yield('links')	
 </html>
-
-
-<nav>
