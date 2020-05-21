@@ -20,7 +20,10 @@
 
                     <h2>Bienvenido</h2>
                     </br>
+
                     <p>Espacio reservado menu principal prueba</p>
+
+                    
                     </br>
                     <a href="{{ action('PersonalController@index') }}" class="btn btn-outline-secondary"> Ver usuarios</a>
                 </div>
