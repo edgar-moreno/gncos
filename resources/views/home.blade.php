@@ -22,7 +22,7 @@
                     </br>
                     <p>Espacio reservado menu principal</p>
                     </br>
-                    <a href="{{ action('PersonalController@index') }}"> Ver usuarios</a>
+                    <a href="{{ action('PersonalController@index') }}" class="btn btn-outline-secondary"> Ver usuarios</a>
                 </div>
             </div>
         </div>
