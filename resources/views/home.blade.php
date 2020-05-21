@@ -8,6 +8,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            JLKLJ
             <div class="card">
                 <div class="card-header text-light bg-dark">Gestor de nómina cos</div>
 
