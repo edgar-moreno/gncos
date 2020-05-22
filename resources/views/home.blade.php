@@ -52,13 +52,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="https://st4.depositphotos.com/2041377/25399/v/1600/depositphotos_253994330-stock-illustration-contact-us-icons.jpg" class="d-block w-100" alt="...">
+                            <img src="https://i.ibb.co/1ZX1MrT/prueba-Img3.png" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://c8.alamy.com/comp/WE21J7/contact-us-call-center-vector-seamless-pattern-illustration-WE21J7.jpg" class="d-block w-100" alt="...">
+                            <img src="https://i.ibb.co/BLbfB8v/prueba-Img1.png" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://media.istockphoto.com/vectors/contact-us-seamless-pattern-with-thin-line-icons-of-telephone-fax-vector-id899394070" class="d-block w-100" alt="...">
+                            <img src="https://i.ibb.co/zNh1PD3/prueba-Img2.png" class="d-block w-100" alt="...">
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
