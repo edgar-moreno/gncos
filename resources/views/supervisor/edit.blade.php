@@ -11,7 +11,7 @@
 				<div class="card-body">
 					<div class="form-row">	
 						<div class="mx-auto">
-							<form action="{{ route('infos.update', $info->id) }}" method="POST">
+							       <form action="{{ route('infos.update', $info->id) }}" method="POST">
 
 								@if (session()->has('status'))
 									<div class="alert alert-success">{{ session('status') }}</div>
