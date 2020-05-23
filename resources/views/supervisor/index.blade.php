@@ -8,6 +8,7 @@
 				<div class="alert alert-success">{{ session('status') }}</div>
 @endif
 
+
 <div class="row px-md-5">
 	<div class="col px-md-5">
 		
