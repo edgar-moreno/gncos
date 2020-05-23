@@ -1,6 +1,4 @@
 <!--Vista para la creacion del usuario-->
-<h1>prubea1</h1>
-<h2>prueba 2</h2>
 
 @extends('PlantillaLinks')
 @extends('layouts.app')
