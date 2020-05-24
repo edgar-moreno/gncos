@@ -59,7 +59,7 @@
 						<td>{{$info->updated_at}}</td>
 						<td>
 							<div class="input-group-prepend" id="button-addon4">
-								<a href="{{ route('infos.edit', $info->id) }}" class="btn btn-outline-secondary" type="button">Editar</a>
+								<a href="{{ route('infos.edit', $info->id) }}" class="btn btn-info" type="button">Editar</a>
 							
 								<form action="{{ route("infos.destroy", $info->id)}}" method="POST">
 								<input type="submit" value="Eliminar" class="btn btn-danger" type="button">
