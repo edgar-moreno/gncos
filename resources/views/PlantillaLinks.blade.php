@@ -19,9 +19,10 @@
 	<div class="container">
 
 		
-			<a href="{{ action('PersonalController@index') }}"  class="btn btn-outline-secondary"> Usuarios</a>
+			<a href="{{ action('PersonalController@index') }}"  class="btn btn-danger"> Usuarios</a>
 			<br>
-			<a href="{{ action('NominaController@index') }}"  class="btn btn-outline-secondary"> NOmina principal</a>
+			<br>
+			<a href="{{ action('NominaController@index') }}"  class="btn btn-danger"> NOmina principal</a>
 		
 
 	</div>
