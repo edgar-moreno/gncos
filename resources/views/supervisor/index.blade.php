@@ -13,7 +13,7 @@
 	<div class="col px-md-5">
 		
 		<p>
-			<h2> Datos Personales <a href="{{ route('infos.create') }}" class="btn btn-outline-secondary"  type="button">Crear nuevo</a></h2>
+			<h2> Datos Personales <a href="{{ route('infos.create') }}" class="btn btn-danger"  type="button">Crear nuevo</a></h2>
 			
 		</p>
 
