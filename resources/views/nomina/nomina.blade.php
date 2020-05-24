@@ -58,6 +58,8 @@
 						<th scope="col">Cargo</th>
 						<th scope="col">SueldoBasico</th>
 						<th scope="col">Observacion</th>
+						<th scope="col">Creación</th>
+						<th scope="col">Actualización</th>
 						<th scope="col">Actions</th>
 					</tr>
 				</thead>
@@ -105,10 +107,10 @@
 						<td>{{$nomina->updated_at}}</td>
 						<td>
 							<div class="input-group-prepend" Documento="button-addon4">
-								<a href="{{ route('nomina.edit', $nomina->id) }}" class="btn btn-outline-secondary" type="button">Editar</a>
+								<a href="{{ route('nomina.edit', $nomina->id) }}" class="btn btn-info" type="button">Editar</a>
 							
 								<form action="{{ route("nomina.destroy", $nomina->Documento)}}" method="POST">
-								<input type="submit" value="Eliminar" class="btn btn-outline-danger" type="button">
+								<input type="submit" value="Eliminar" class="btn btn-danger" type="button">
 								{{ method_field('DELETE') }}
 								@csrf
 								</form>
