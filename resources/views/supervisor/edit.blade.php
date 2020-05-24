@@ -110,7 +110,7 @@
 								</div>
 
 								<div class="form-group">
-									<input type="submit" value="Guardar información editada" class="btn btn-outline-secondary"  onclick="window.close()">
+									<input type="submit" value="Guardar información editada" class="btn btn-danger"  onclick="window.close()">
 								</div>
 								
 								@csrf
