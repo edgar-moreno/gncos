@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header text-light bg-dark">Gestor de nómina cos</div>
+                <div class="card-header text-light bg-dark">Gestor de Nómina Cos Supervisor</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -21,11 +21,16 @@
                     <h2>Bienvenido</h2>
                     </br>
 
-                    <p>Espacio reservado menu principal prueba</p>
+                    <p>Espacio reservado menu principal</p>
 
                     
                     </br>
-                    <a href="{{ action('PersonalController@index') }}" class="btn btn-outline-secondary"> Ver usuarios</a>
+                    <a href="{{ action('PersonalController@index') }}" class="btn btn-danger"> Colaboradores</a>
+                    <a href="{{ action('NominaController@index') }}"  class="btn btn-danger"> Nómina</a>
+
+
+
+
                 </div>
             </div>
         </div>
