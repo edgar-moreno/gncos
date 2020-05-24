@@ -117,12 +117,6 @@
 											<input type="text" name="Comisiones" class="form-control" id="Comisiones" placeholder="Comisiones" value="{{ old('Comisiones') }}" >
 											<span class="help-block">{{ $errors->first('Comisiones')}}</span>	
 										</div>
-
-
-
-
-
-
 										<div class="col">
 											<label for="CuotaSostenimientoProductivo" class="col-form-label-sm">CuotaSostenimientoProductivo(a)</label>
 											<input type="text" name="CuotaSostenimientoProductivo" class="form-control" id="CuotaSostenimientoProductivo" placeholder="CuotaSostenimientoProductivo" value="{{ old('CuotaSostenimientoProductivo') }}" >
@@ -130,8 +124,9 @@
 										</div>
 									</div>
 								</div>
-
-								<div class="col">
+								<div class="form-group">
+									<div class="form-row">
+										<div class="col">								
 											<label for="DiasPendientesPorCancelar" class="col-form-label-sm">DiasPendientesPorCancelar(a)</label>
 											<input type="text" name="DiasPendientesPorCancelar" class="form-control" id="DiasPendientesPorCancelar" placeholder="DiasPendientesPorCancelar" value="{{ old('DiasPendientesPorCancelar') }}" >
 											<span class="help-block">{{ $errors->first('DiasPendientesPorCancelar')}}</span>	
@@ -145,8 +140,13 @@
 										<div class="col">
 											<label for="HorasExtrasNocturnas" class="col-form-label-sm">HorasExtrasNocturnas(a)</label>
 											<input type="text" name="HorasExtrasNocturnas" class="form-control" id="HorasExtrasNocturnas" placeholder="HorasExtrasNocturnas" value="{{ old('HorasExtrasNocturnas') }}" >
-											<span class="help-block">{{ $errors->first('HorasExtrasNocturnas')}}</span>	
-										</div>
+											<span class="help-block">{{ $errors->first('HorasExtrasNocturnas')}}</span>
+											</div>	
+											</div>	
+											</div>	
+
+											<div class="form-group">
+									<div class="form-row">				
 										<div class="col">
 											<label for="IncapacidadEps" class="col-form-label-sm">IncapacidadEps(a)</label>
 											<input type="text" name="IncapacidadEps" class="form-control" id="IncapacidadEps" placeholder="IncapacidadEps" value="{{ old('IncapacidadEps') }}" >
@@ -160,9 +160,13 @@
 										<div class="col">
 											<label for="SalarioIntegral70" class="col-form-label-sm">SalarioIntegral70(a)</label>
 											<input type="text" name="SalarioIntegral70" class="form-control" id="SalarioIntegral70" placeholder="SalarioIntegral70" value="{{ old('SalarioIntegral70') }}" >
-											<span class="help-block">{{ $errors->first('SalarioIntegral70')}}</span>	
-										</div>
-										<div class="col">
+											<span class="help-block">{{ $errors->first('SalarioIntegral70')}}</span>
+											</div>	
+											</div>	
+											</div>	
+											<div class="form-group">
+									<div class="form-row">
+										<div class="col">					     
 											<label for="Capacitacion" class="col-form-label-sm">Capacitacion(a)</label>
 											<input type="text" name="Capacitacion" class="form-control" id="Capacitacion" placeholder="Capacitacion" value="{{ old('Capacitacion') }}" >
 											<span class="help-block">{{ $errors->first('Capacitacion')}}</span>	
@@ -175,9 +179,13 @@
 										<div class="col">
 											<label for="AportePension" class="col-form-label-sm">AportePension(a)</label>
 											<input type="text" name="AportePension" class="form-control" id="AportePension" placeholder="AportePension" value="{{ old('AportePension') }}" >
-											<span class="help-block">{{ $errors->first('AportePension')}}</span>	
-										</div>
-										<div class="col">
+											<span class="help-block">{{ $errors->first('AportePension')}}</span>
+											</div>	
+											</div>	
+											</div>	
+											<div class="form-group">
+									<div class="form-row">
+										<div class="col">							
 											<label for="AporteVoluntario" class="col-form-label-sm">AporteVoluntario(a)</label>
 											<input type="text" name="AporteVoluntario" class="form-control" id="AporteVoluntario" placeholder="AporteVoluntario" value="{{ old('AporteVoluntario') }}" >
 											<span class="help-block">{{ $errors->first('AporteVoluntario')}}</span>	
@@ -190,8 +198,12 @@
 										<div class="col">
 											<label for="DescuentoCarnet" class="col-form-label-sm">DescuentoCarnet(a)</label>
 											<input type="text" name="DescuentoCarnet" class="form-control" id="DescuentoCarnet" placeholder="DescuentoCarnet" value="{{ old('DescuentoCarnet') }}" >
-											<span class="help-block">{{ $errors->first('DescuentoCarnet')}}</span>	
-										</div>
+											<span class="help-block">{{ $errors->first('DescuentoCarnet')}}</span>
+											</div>	
+											</div>	
+											</div>
+											<div class="form-group">
+									<div class="form-row">
 										<div class="col">
 											<label for="InconsistenciaEnProceso" class="col-form-label-sm">InconsistenciaEnProceso(a)</label>
 											<input type="text" name="InconsistenciaEnProceso" class="form-control" id="InconsistenciaEnProceso" placeholder="InconsistenciaEnProceso" value="{{ old('InconsistenciaEnProceso') }}" >
@@ -205,8 +217,12 @@
 										<div class="col">
 											<label for="Retardo" class="col-form-label-sm">Retardo(a)</label>
 											<input type="text" name="Retardo" class="form-control" id="Retardo" placeholder="Retardo" value="{{ old('Retardo') }}" >
-											<span class="help-block">{{ $errors->first('Retardo')}}</span>	
-										</div>
+											<span class="help-block">{{ $errors->first('Retardo')}}</span>
+											</div>	
+											</div>	
+											</div>
+											<div class="form-group">
+									<div class="form-row">
 										<div class="col">
 											<label for="RetencionEnLaFuente" class="col-form-label-sm">RetencionEnLaFuente(a)</label>
 											<input type="text" name="RetencionEnLaFuente" class="form-control" id="RetencionEnLaFuente" placeholder="RetencionEnLaFuente" value="{{ old('RetencionEnLaFuente') }}" >
@@ -222,6 +238,10 @@
 											<input type="text" name="MayorValorAuxilioTransporte" class="form-control" id="MayorValorAuxilioTransporte" placeholder="MayorValorAuxilioTransporte" value="{{ old('MayorValorAuxilioTransporte') }}" >
 											<span class="help-block">{{ $errors->first('MayorValorAuxilioTransporte')}}</span>	
 										</div>
+										</div>
+										</div>
+										<div class="form-group">
+									<div class="form-row">
 										<div class="col">
 											<label for="TotalNetoPagado" class="col-form-label-sm">TotalNetoPagado(a)</label>
 											<input type="text" name="TotalNetoPagado" class="form-control" id="TotalNetoPagado" placeholder="TotalNetoPagado" value="{{ old('TotalNetoPagado') }}" >
@@ -237,6 +257,10 @@
 											<input type="text" name="Cargo" class="form-control" id="Cargo" placeholder="Cargo" value="{{ old('Cargo') }}" >
 											<span class="help-block">{{ $errors->first('Cargo')}}</span>	
 										</div>
+										</div>
+										</div>
+										<div class="form-group">
+									<div class="form-row">
 										<div class="col">
 											<label for="SueldoBasico" class="col-form-label-sm">SueldoBasico(a)</label>
 											<input type="text" name="SueldoBasico" class="form-control" id="SueldoBasico" placeholder="SueldoBasico" value="{{ old('SueldoBasico') }}" >
@@ -247,8 +271,10 @@
 											<input type="text" name="Observacion" class="form-control" id="Observacion" placeholder="Observacion" value="{{ old('Observacion') }}" >
 											<span class="help-block">{{ $errors->first('Observacion')}}</span>	
 										</div>
+										</div>
+										</div>
 								<div class="form-group">
-									<input type="submit" value="Crear nuevo usuario" class="btn btn-outline-secondary">
+									<input type="submit" value="Crear nuevo usuario" class="btn btn-danger">
 								</div>
 								@csrf
 							</form>
