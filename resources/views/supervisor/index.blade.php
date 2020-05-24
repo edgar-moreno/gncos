@@ -62,7 +62,7 @@
 								<a href="{{ route('infos.edit', $info->id) }}" class="btn btn-outline-secondary" type="button">Editar</a>
 							
 								<form action="{{ route("infos.destroy", $info->id)}}" method="POST">
-								<input type="submit" value="Eliminar" class="btn btn-outline-danger" type="button">
+								<input type="submit" value="Eliminar" class="btn btn-danger" type="button">
 								{{ method_field('DELETE') }}
 								@csrf
 								</form>
