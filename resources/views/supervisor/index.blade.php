@@ -8,11 +8,12 @@
 				<div class="alert alert-success">{{ session('status') }}</div>
 @endif
 
+
 <div class="row px-md-5">
 	<div class="col px-md-5">
 		
 		<p>
-			<h2> Datos Personales <a href="{{ route('infos.create') }}" class="btn btn-outline-secondary"  type="button">Crear nuevo</a></h2>
+			<h2> Datos Personales <a href="{{ route('infos.create') }}" class="btn btn-danger"  type="button">Crear nuevo</a></h2>
 			
 		</p>
 
@@ -58,10 +59,10 @@
 						<td>{{$info->updated_at}}</td>
 						<td>
 							<div class="input-group-prepend" id="button-addon4">
-								<a href="{{ route('infos.edit', $info->id) }}" class="btn btn-outline-secondary" type="button">Editar</a>
+								<a href="{{ route('infos.edit', $info->id) }}" class="btn btn-info" type="button">Editar</a>
 							
 								<form action="{{ route("infos.destroy", $info->id)}}" method="POST">
-								<input type="submit" value="Eliminar" class="btn btn-outline-danger" type="button">
+								<input type="submit" value="Eliminar" class="btn btn-danger" type="button">
 								{{ method_field('DELETE') }}
 								@csrf
 								</form>

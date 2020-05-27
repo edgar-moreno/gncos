@@ -113,7 +113,7 @@
 								</div>
 
 								<div class="form-group">
-									<input type="submit" value="Crear nuevo usuario" class="btn btn-outline-secondary">
+									<input type="submit" value="Crear nuevo usuario" class="btn btn-danger">
 								</div>
 								@csrf
 							</form>

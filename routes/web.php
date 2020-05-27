@@ -17,3 +17,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 Route::post('/register', 'Auth\RegisterController@register')->name('register');	
 
+Route::resource('nomina', 'NominaController');
+
+
