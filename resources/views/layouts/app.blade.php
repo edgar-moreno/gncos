@@ -26,7 +26,9 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-dark bg-dark">
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="https://ii.ct-stc.com/1/logos/empresas/2017/12/21/cos-179061CB3900564C170000thumbnail.png"  border="0" width="96" height="30">
@@ -38,12 +40,36 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+
                     <ul class="navbar-nav mr-auto">
                         
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
+                        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="{{ url('/') }}"><button type="button" class="btn btn-light">inicio</button>{{ config('app.name', 'Laravel') }}</a>
+                              </li>
+                                 <li class="nav-item">
+                                  <a class="nav-link" href="#"> Nomina</a>
+                                </li>
+          
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Novedades</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="http:example.com" id="navbarDownMenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">zznformacion laboral</a>
+                                                       
+                                <div class="dropdown-menu" aria-labelledby="navbarDownmenulink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </li>
+                            </ul>
+                        </div>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -77,7 +103,8 @@
                 </div>
             </div>
         </nav>
-
+        </br>
+        </br>
         <main class="py-4">
             @yield('content')
         </main>
