@@ -18,7 +18,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-<<<<<<< HEAD
 
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -41,11 +40,6 @@
                           <span class="sr-only">Next</span>
                         </a>
                     </div>
-=======
-                
-            
-                    <h2>Bienvenido</h2>
->>>>>>> ramaAdriana
                     </br>
                     <h3>Bienvenido</h3>
                     </br>
