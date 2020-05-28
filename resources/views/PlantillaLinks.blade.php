@@ -16,16 +16,7 @@
 	<title></title>
 </head>
 <body>
-	<div class="container">
-
-		
-			<a href="{{ action('PersonalController@index') }}"  class="btn btn-danger"> Usuarios</a>
-			<br>
-			<br>
-			<a href="{{ action('NominaController@index') }}"  class="btn btn-danger"> NOmina principal</a>
-		
-
-	</div>
+	
 	
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
