@@ -1,11 +1,10 @@
 <!--Vista reservada para el menu principal-->
 
 
-
+@extends('PlantillaLinks')
 @extends('layouts.app')
-
 @section('content')
-
+@section('links')
 
 <div class="container">
     <div class="row justify-content-center">
@@ -44,12 +43,6 @@
                     </br>
                     <h3>Bienvenido</h3>
                     </br>
-                    <a href="{{ action('PersonalController@index') }}" class="btn btn-danger"> Colaboradores</a>
-                    <a href="{{ action('NominaController@index') }}"  class="btn btn-danger"> Nómina</a>
-
-
-
-
                 </div>
             </div>
         </div>
