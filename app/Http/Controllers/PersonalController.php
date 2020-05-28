@@ -114,7 +114,7 @@ class PersonalController extends Controller
          'FechaIngreso'=>'required|string',
          'Campaña'=>'required|string',
          'Gerencia'=>'required|string',
-         'Supervisor'=>'required|string'
+         'Supervisor'=>'required|string'    
         ]);
 
         DB::table('personales')->where('id', $id)->update($request->only('Documento', 'Nombres','Apellidos','FechaNacimiento','TelContacto','Direccion','Barrio','Localidad','FechaIngreso','Campaña','Gerencia','Supervisor'));
