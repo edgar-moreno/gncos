@@ -49,18 +49,18 @@
                     <ul class="navbar-nav ml-auto">
                         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                             <ul class="navbar-nav ml-auto">
-                              <li class="nav-item active">
-                                <a class="nav-link" href="{{ url('/') }}"><button type="button" class="btn btn-light">inicio</button>{{ config('app.name', 'Laravel') }}</a>
+                              <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/') }}">Inicio{{ config('app.name', 'Laravel') }}</a>
                               </li>
                                  <li class="nav-item">
-                                  <a class="nav-link" href="#"> Nomina</a>
+                                  <a class="nav-link" href="{{ action('PersonalController@index') }}"> Colaboradores</a>
                                 </li>
           
                               <li class="nav-item">
-                                <a class="nav-link" href="#">Novedades</a>
+                                <a class="nav-link" href="#">Alertas</a>
                               </li>
                               <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http:example.com" id="navbarDownMenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">zznformacion laboral</a>
+                                <a class="nav-link dropdown-toggle" href="http:example.com" id="navbarDownMenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Directrices superiores</a>
                                                        
                                 <div class="dropdown-menu" aria-labelledby="navbarDownmenulink">
                                   <a class="dropdown-item" href="#">Action</a>
