@@ -36,4 +36,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    // en: From here
+
+    public function roles(){
+        return $this->belongsToMany('App\PermissionGNCOS\Models\Role')->withTimestamps();
+    }
 }
