@@ -9,7 +9,7 @@ class Role extends Model
     // en: From here
 
     protected $fillable = [
-        'name',
+        'name', 'slug', 'description', 'full-access',
     ];
 
     public function users(){
