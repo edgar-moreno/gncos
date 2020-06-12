@@ -140,7 +140,7 @@ class PermissionGNCOSInfoSeeder extends Seeder
         */
 
         //table permission_role
-        $roleadmin->permissions()->sync($permission_all);
+        //$roleadmin->permissions()->sync($permission_all);
 
     }
 }
