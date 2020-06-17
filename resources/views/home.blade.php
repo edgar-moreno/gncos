@@ -1,11 +1,10 @@
 <!--Vista reservada para el menu principal-->
 
 
-
+@extends('PlantillaLinks')
 @extends('layouts.app')
-
 @section('content')
-
+@section('links')
 
 <div class="container">
     <div class="row justify-content-center">
@@ -23,6 +22,9 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
+                            <img src="https://i.ibb.co/hHYh38Z/portada01.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
                             <img src="https://i.ibb.co/VTVMwcW/comp5.jpg" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
@@ -44,12 +46,6 @@
                     </br>
                     <h3>Bienvenido</h3>
                     </br>
-                    <a href="{{ action('PersonalController@index') }}" class="btn btn-danger"> Colaboradores</a>
-                    <a href="{{ action('NominaController@index') }}"  class="btn btn-danger"> Nómina</a>
-
-
-
-
                 </div>
             </div>
         </div>
