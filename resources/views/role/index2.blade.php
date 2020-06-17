@@ -41,7 +41,13 @@
                                     <td>{{$role['full-access']}}</td>   
                                     <td><a href="{{route('role.show',$role->id)}}" class="btn btn-outline-secondary" type="button">Mostrar</a></td>
                                     <td><a href="{{route('role.edit',$role->id)}}" class="btn btn-outline-dark" type="button">Editar</a></td>
-                                    <td><a href="{{route('role.destroy',$role->id)}}" class="btn btn-outline-danger" type="button">Eliminar</a></td>
+                                    <td>
+                                        <form action="{{route('role.destroy',$role->id)}}" method="POST">
+                                            @csrf
+                                            @method('DELETE')
+                                            <a href="" class="btn btn-outline-danger" type="button">Eliminar</a>
+                                        </form>
+                                    </td>
                                 </tr>
                             @endforeach
                         </tbody>
