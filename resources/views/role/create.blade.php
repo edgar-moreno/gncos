@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="slug">
-                                        Slug
+                                        Descripción corta
                                     </label>
                                     <input type="text" 
                                     class="form-control" 
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="description">
-                                        Descripción
+                                        Descripción larga
                                     </label>
                                     <input type="text" 
                                     class="form-control" 
@@ -128,8 +128,12 @@
                                     @endforeach
                                 </p>
 
+                                <a class="btn btn-outline-secondary"
+                                 href="{{route('role.index')}}">
+                                    Cancelar
+                                </a>
                                 <button type="submit" 
-                                class="btn btn-outline-secondary">
+                                class="btn btn-outline-dark">
                                     Guardar
                                 </button>
                               </form>
